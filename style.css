@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+*{
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F9F9F9;
+       }
+.container{
+    background-color: #fff;
+
+}
+.layout{
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius:20px;
+    box-shadow: 8px 8px 5px 5px darkgray;
+
+}
+.btn{
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 50px;
+    padding: 20px 150px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #7FBCD2;
+}
+.layout label{
+    font-size: 16px;
+    color: darkgray
+
+}
+.layout input{
+    padding: 10px 20px;
+    border: 0;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+    
+}
+.layout select{
+    padding: 10px 15px;
+    border: 0;
+    border-bottom: 1px solid darkgray;
+    background-color: white;
+}
+.layout h2{
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;  
+    
+}
+.degree, .type{
+    display: grid;
+}
+.output{
+    margin:15px 0 30px 60px ;
+}  

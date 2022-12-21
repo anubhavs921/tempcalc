@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="#"/>
+
+</head>
+<body>
+    <form id="tempCalc" onsubmit="temprature(); return false">
+        <div class="container">
+            <div class="layout">
+                <h2>Temperature Converter</h2>
+                <div class="input">
+                    <div class="degree">
+                        <label for="Degree">Degrees</label> 
+                        <input type="number" name="degree" id="inputDegree">
+                    </div>
+                    <div class="type">
+                        <label for="type">Type</label>
+                        <select name="type" id="unit">
+                            <option value="Celsious">Celcious(&deg;C)</option>
+                            <option value="Fahrenheit">Fahrenheit(&deg;F)</option>
+                            <option value="Kelvin">Kelvin (&deg;K)</option>
+                        </select>
+                    </div>
+                </div>
+               
+                <div class="output">
+                    <label for="result">Result</label> <br>
+                    <div id="resultContainer"></div><br>
+                    <button type="submit" class="btn" name="temp">Convert </button>
+                </div>
+               
+               
+            </div>
+        </div>
+    </form>
+        <script src="script.js"></script>
+</body>
+
+</html>
